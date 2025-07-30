@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Indian Student Association</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lightbox CSS for image gallery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/isa-logo.png" alt="ISA Logo" class="logo">
+            <h1>Indian Student Association</h1>
+            <h2>University of Oklahoma</h2>
+        </div>
+        <nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery-container">
+        <div class="container">
+            <div class="gallery-header">
+                <h2 class="section-title">Event Gallery</h2>
+                <p>Explore the vibrant moments from our cultural celebrations and community gatherings.</p>
+            </div>
+
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All Events</button>
+                <button class="filter-btn" data-filter="diwali">Diwali</button>
+                <button class="filter-btn" data-filter="holi">Holi</button>
+                <button class="filter-btn" data-filter="republic-day">Republic Day</button>
+                <button class="filter-btn" data-filter="cultural">Cultural Showcase</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Diwali Event Photos -->
+                <div class="gallery-item" data-category="diwali">
+                    <img src="images/gallery/diwali1.jpg" alt="Diwali Celebration">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Diwali Night</h3>
+                        <p class="gallery-date">November 2023</p>
+                        <a href="images/gallery/diwali1.jpg" data-lightbox="gallery" data-title="Diwali Night Celebration - November 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diwali">
+                    <img src="images/gallery/diwali2.jpg" alt="Diwali Performances">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Diwali Performances</h3>
+                        <p class="gallery-date">November 2023</p>
+                        <a href="images/gallery/diwali2.jpg" data-lightbox="gallery" data-title="Diwali Dance Performances - November 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="diwali">
+                    <img src="images/gallery/diwali3.jpg" alt="Diwali Decorations">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Diwali Decorations</h3>
+                        <p class="gallery-date">November 2023</p>
+                        <a href="images/gallery/diwali3.jpg" data-lightbox="gallery" data-title="Beautiful Diwali Decorations - November 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Holi Event Photos -->
+                <div class="gallery-item" data-category="holi">
+                    <img src="images/gallery/holi1.jpg" alt="Holi Celebration">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Holi Festival</h3>
+                        <p class="gallery-date">March 2023</p>
+                        <a href="images/gallery/holi1.jpg" data-lightbox="gallery" data-title="Holi Festival of Colors - March 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="holi">
+                    <img src="images/gallery/holi2.jpg" alt="Holi Colors">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Holi Colors</h3>
+                        <p class="gallery-date">March 2023</p>
+                        <a href="images/gallery/holi2.jpg" data-lightbox="gallery" data-title="Vibrant Holi Colors - March 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="holi">
+                    <img src="images/gallery/holi3.jpg" alt="Holi Festivities">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Holi Festivities</h3>
+                        <p class="gallery-date">March 2023</p>
+                        <a href="images/gallery/holi3.jpg" data-lightbox="gallery" data-title="Holi Festivities at OU - March 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Republic Day Photos -->
+                <div class="gallery-item" data-category="republic-day">
+                    <img src="images/gallery/republic1.jpg" alt="Republic Day Event">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Republic Day</h3>
+                        <p class="gallery-date">January 2023</p>
+                        <a href="images/gallery/republic1.jpg" data-lightbox="gallery" data-title="Republic Day Celebration - January 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="republic-day">
+                    <img src="images/gallery/republic2.jpg" alt="Republic Day Performances">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Republic Day Performances</h3>
+                        <p class="gallery-date">January 2023</p>
+                        <a href="images/gallery/republic2.jpg" data-lightbox="gallery" data-title="Cultural Performances on Republic Day - January 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cultural Showcase Photos -->
+                <div class="gallery-item" data-category="cultural">
+                    <img src="images/gallery/cultural1.jpg" alt="Cultural Showcase">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Cultural Showcase</h3>
+                        <p class="gallery-date">September 2023</p>
+                        <a href="images/gallery/cultural1.jpg" data-lightbox="gallery" data-title="Annual Cultural Showcase - September 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cultural">
+                    <img src="images/gallery/cultural2.jpg" alt="Dance Performance">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Classical Dance</h3>
+                        <p class="gallery-date">September 2023</p>
+                        <a href="images/gallery/cultural2.jpg" data-lightbox="gallery" data-title="Classical Dance Performance - September 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cultural">
+                    <img src="images/gallery/cultural3.jpg" alt="Music Performance">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Musical Evening</h3>
+                        <p class="gallery-date">September 2023</p>
+                        <a href="images/gallery/cultural3.jpg" data-lightbox="gallery" data-title="Indian Musical Evening - September 2023">
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/isa-logo.png" alt="ISA Logo" class="footer-logo-img">
+                    <h3>Indian Student Association</h3>
+                    <p>University of Oklahoma</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> isa.ou@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> University of Oklahoma, Norman, OK</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Indian Student Association - University of Oklahoma. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <!-- Lightbox JS for image gallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+        // Initialize lightbox
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'albumLabel': "Image %1 of %2"
+        });
+    </script>
+</body>
+</html> 
